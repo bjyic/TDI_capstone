@@ -4,23 +4,23 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
 	<!--
     <link rel="icon" href="../../favicon.ico"> -->
 
-    <title>Starter Template for Bootstrap</title>
-	
+    <title>How much should I pay for my apartment?</title>
+
     <!-- Bootstrap core CSS -->
 	<!--
     <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug 
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug
     <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 	-->
     <!-- Custom styles for this template -->
-<!--	<link href="../static/starter-template.css" rel="stylesheet">cY -->
+	<link href="static/starter-template.css" rel="stylesheet">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -34,40 +34,43 @@
   </head>
 
   <body>
+    <!-- <nav>
+      <a href="#" id=""></a>
+      <a href="#" id=""></a>
+    </nav> -->
 
+    <header>
+      <section>
+        <div class="header-text">
+          <h1> Find My Apartment in the Bay Area</h1>
 
+          <h3>For commuters who heavily depend on public transportations</h3>
 
+          <form id='index' method='post' action='index' >
+            <input type='text' name='address_input' placeholder="CalTrain, Bart, MUNI or VTA Station">
+            <input type='text' name='radius_input' placeholder="Radius (miles)" >
+            <button type='submit'>Search</button>
+        </div>
+      </section>
+    </header>
 
+    <!-- <section class="how-it-works">
+      <h2>Find the best suitable apartment nearby the station</h2>
+    </section> -->
 
-    <div class="container"  >
+    <main>
 
-      <div class="starter-template front-prop" >
-      <h1 style="color:#1aef2f;"> Find My Apartment in Bay area</h1>
-        <h4 style="color:#1aef2f;">For the commuters who heavily depend on Caltrain/Bart</h2>
-        <h4 style="color:#1aef2f	;">Find the best suitable apartment nearby the station</h3>
-      	
-      	<form id='index' method='post' action='index' > <!-- action is the URL you want to move to next-->
-				<h4 style="color:#1aef2f;">
-				<br>
-				Please enter the station you are looking for, eg.  Sunnyvale: CalTrain Station
-					<input type='text' name='address_input' />
-				<br>
-				Please enter the radius you want to search. (0.5 miles=Walk 10 mins; 2.5 miles = Drive 10 mins)
-					<input type='text' name='radius_input' />
-				</h4>
-				
+    <!-- <footer>
+      <a href="#"></a>
+      <a href="#"></a>
+    </footer> -->
 
-						<p>
-					<input type='submit' value='Submit' /> <!-- value is the text that will appear on the button. -->
-						</p>
-			
-			
-			
-			</form>		
-		
-      </div>
+      </form>
+    </main>
+
+      <!-- </div>
       <div class="background-prop"></div>
-    </div><!-- /.container -->
+    </div><!-- /.container --> -->
 
 
     <!-- Bootstrap core JavaScript
@@ -80,10 +83,6 @@
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 	<!--
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>-->
-    
 
-
-  
   </body>
-
 </html>
